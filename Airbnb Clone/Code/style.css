@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+#aside {
+  background-color: black;
+  margin: auto;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+#aside a {
+  color: #dddddd;
+  text-decoration: underline;
+}
+
+.logo {
+  display: flex;
+  place-items: center;
+  height: 80px;
+}
+
+.logo > div {
+  flex: auto;
+  width: 37%;
+}
+
+.text-center {
+  text-align: center;
+  font-size: 18px;
+}
+
+.text-center a:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+.text-end {
+  text-align: end;
+  height: 54px;
+  font-size: 16px;
+}
+
+.text-end a:hover {
+  background-color: rgba(121, 163, 185, 0.5);
+  border-radius: 20px;
+}
+
+.nav > *,
+.text-end > * {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.logo div a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.text-end > :nth-child(2) {
+  display: inline-block;
+}
+
+.logo > :nth-child(1) {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+header {
+  height: 725px;
+  background-image: url(../../Airbnb-Image/Background\ Image.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  padding: 0 80px;
+}
+
+#nav-btn {
+  position: relative;
+  width: 77px;
+  height: 42px;
+  padding: 1px 6px;
+  border-radius: 110px;
+  border: none;
+  top: 7px;
+
+  cursor: pointer;
+}
+
+.search-input {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  margin: auto;
+  height: 66px;
+  width: 850px;
+  border-radius: 110px;
+}
+
+.search-input a {
+  color: black;
+}
+
+.search-input > div * {
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  text-decoration: none;
+  border: none;
+}
+
+.search-input > div {
+  width: 13rem;
+  border-right: 1px solid #dadada;
+}
+
+.search-input > div:hover {
+  background-color: #e7e7e7;
+  border-radius: 110px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.search-input > :nth-child(1) {
+  width: 18rem;
+}
+
+.search-input > :nth-child(4) {
+  width: 11rem;
+  border: none;
+}
+
+.search-input > :nth-child(5) {
+  width: 4.5rem;
+  border: none;
+}
+
+.search-input > :nth-child(5):hover {
+  background: none;
+}
+
+.search-input input {
+  background-color: transparent;
+}
+
+.search-button {
+  background-color: #fa215b;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.search-button:hover {
+  background-color: #dc0e64;
+}
+
+.preface {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 625px;
+  font-size: 58px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.preface span {
+  width: 400px;
+}
+
+.preface button {
+  width: 155px;
+  height: 32px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: none;
+}
+
+.padding80 {
+  padding: 0 80px;
+}
+
+.margin50 {
+  margin: 50px 0;
+}
+
+.img70 img {
+  width: 70px;
+  border-radius: 10px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.cities li {
+  list-style: none;
+}
+
+.cities a {
+  margin-top: 15px;
+  padding-right: 13px;
+  display: flex;
+  align-items: center;
+}
+
+.quarter > * {
+  width: 25%;
+  padding-right: 13px;
+  color: black;
+}
+
+.quarter span > * {
+  color: black;
+  display: block;
+  margin-left: 20px;
+}
+
+.font32 {
+  font-size: 32px;
+}
+
+.font18 {
+  font-size: 18px;
+}
+
+.font14 {
+  font-size: 14px;
+}
+
+.black-background {
+  background-color: black;
+  color: white;
+}
+
+.black-background a {
+  color: white;
+}
+
+.padding5080 {
+  padding: 50px 80px;
+}
+
+.third > * {
+  width: 33.33%;
+  padding-right: 13px;
+}
+
+.gray-background {
+  background-color: #f7f7f7;
+  border-top: 1px solid #dddddd;
+}
+
+footer ul > li {
+  font-size: 14px;
+}
+
+footer ul > * {
+  margin-top: 10px;
+}
+
+footer ul > b {
+  font-size: 12px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  height: 1px;
+  background-color: #cecece;
+  border-width: 0;
+}
+
+.last-footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.last-footer > div {
+  width: 25%;
+  text-align-last: right;
+}
+
+.last-footer > div:nth-child(1) {
+  text-align-last: left;
+  width: 50%;
+}
+
+.last-footer img {
+  width: 16px;
+}
